@@ -14,13 +14,6 @@ export const metadata: Metadata = {
     description: 'Acesso imediato à biblioteca digital com cursos, ferramentas IA, templates e recursos exclusivos.',
     url: 'https://blackcommunity.com',
     siteName: 'BLACK COMMUNITY',
-    images: [
-      {
-        url: 'https://blackcommunity.com/og-image.png',
-        width: 1200,
-        height: 630,
-      },
-    ],
     locale: 'pt_BR',
     type: 'website',
   },
@@ -31,11 +24,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR" className={`${inter.variable} ${poppins.variable}`}>
       <head>

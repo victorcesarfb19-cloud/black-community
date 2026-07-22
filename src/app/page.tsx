@@ -14,7 +14,6 @@ import CTA from '@/components/CTA';
 import WelcomeModal from '@/components/WelcomeModal';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import Navigation from '@/components/Navigation';
-import { motion } from 'framer-motion';
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
